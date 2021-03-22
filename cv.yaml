@@ -44,8 +44,8 @@ order:
 
 about: 
   I'm a 1st year Ph.D. student in <b>Prof. Salman Avestimehr</b>'s vITAL Lab at <b>University of Southern California (USC)</b> in Los Angeles .
-  I study foudational topics and applications in <b>federated learning</b>,<b>graph neural networks</b>,<b>probabilistic deep learning</b>, and <b>information theory</b> .
-    Recently, I started to contribute to a promising library for federated learning, FedML, spearheaded by our lab. In my research, I seek to design learning algorithms that can cope with non I.I.D. nature of real-life data in federated setting. I try to actively contribute to \href{https://github.com/FedML-AI/FedML}{FedML}, a promising research library for federated learning
+  I study foundational topics and applications in <b>federated learning</b>,<b>graph neural networks</b>,<b>probabilistic deep learning</b>, and <b>information theory</b> .
+ In my research, I seek to design learning algorithms that can cope with non I.I.D. nature of real-life data in federated setting. I try to actively contribute to \href{https://github.com/FedML-AI/FedML}{FedML}, a promising research library for federated learning
   as I believe that federated learning systems should be accessible everyone.
   
   During my masters, I was an  R\&D Engineer at Turkcell Technology under my master's advisor, Dr. Salih Ergut, thanks to the 5G & Beyond Graduate Scholarship.
@@ -214,14 +214,17 @@ industry:
       #   and hard links.
 
 summer_schools:
-  - school: "\\href{https://deepbayes.ru/2019/}{Deep|Bayes Summer School}"
+  - school: Deep|Bayes Summer School
     location: Moscow, RU
     dates: Aug 20-25 2019
     details:
+      - "Summer school \\href{https://deepbayes.ru/2019/}{website}"
       - "Honored to \\href{https://cs.hse.ru/en/big-data/bayeslab/news/303676800.html}{comment} about the school "
-  - school: "\\href{https://project.inria.fr/paiss/home-2019/}{PRAIRIE PAISS AI Summer School}"
+  - school: PRAIRIE PAISS AI Summer School
     location: Paris, FR
     dates: Oct 3-5 2019
+    details:
+      - "Summer school \\href{https://project.inria.fr/paiss/home-2019/}{website}"
 
 
 teaching:
@@ -376,8 +379,8 @@ skills:
     details: Linux,vim, git, tmux, zsh
 
 honors:
-  - title: NSF Graduate Research Fellowship
-    year: 2016 -- 2019
+  - title: 5G \& Beyond Graduate Support Program
+    year: 2018 - 2020
   - title: Nine undergraduate scholarships
     descr: |
       Roanoke County Public Schools Engineering,
