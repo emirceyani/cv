@@ -25,7 +25,7 @@ order:
   # - [news, News]
   - [positions, Current Position]
   - [education, Education]
-  - [industry, Research Internships]
+  - [industry, Industry Experience]
   # - [research, Research Experience]
   # - [selected_publications, Selected Publications]
   - [honors, Honors \& Awards]
@@ -33,12 +33,13 @@ order:
   # - [coursework, CMU Graduate Coursework]
 #  - [activities, Activities]
   - [all_publications, Publications]
-  - [repos, Repositories]
   # - [NEWPAGE, NEWPAGE]
   #- [talks, Invited Talks]
   #- [advising, Students \& Advising]
   - [service, Professional Activities]
+  - [summer_schools, Summer Schools Attended]
   - [teaching, Teaching]
+  - [repos, Repositories]
   - [skills, Skills]
 
 about: 
@@ -77,16 +78,13 @@ repos:
     year: 2013
     desc: My YAML/LaTeX/Markdown cv
 
-
 education:
   - school: University of Southern California
     location: Los Angeles, CA
     degree: Ph.D. in Electrical \& Computer Engineering
     dates: Jan 2021 -- 
-    # dates: May 2019
-    #overallGPA: 0.00/0.00
     details:
-      #- "\\textit{\\href{https://github.com/bamos/thesis}{Differentiable Optimization-Based Modeling for Machine Learning}}"
+      - "Thesis Topic: Federated Data Analytics"
       - "Advisor: \\href{http://avestimehr.com}{Salman Avestimehr} (Jan 2021 -- )"
 
 
@@ -94,23 +92,16 @@ education:
     location: Ankara,TR
     degree: M.Sc. in Electrical \& Electronics Engineering
     dates: 2018 -- 2020
-    # dates: May 2014
-    # overallGPA: 3.99/4.00
-    # majorGPA: 4.00/4.00
     details:
+      - "Thesis Title: \\href{https://www.linkedin.com/in/ergut/}{Spatio-temporal Forecasting Over Graphs with Deep Learning}"
       - "Advisor: \\href{https://www.linkedin.com/in/ergut/}{Dr. Salih Ergut}"
 
   - school: Bilkent University 
     location: Ankara,TR
     degree: B.Sc. in Electrical \& Electronics Engineering
     dates: 2013 -- 2018
-    # dates: May 2014
-    # overallGPA: 3.99/4.00
-    # majorGPA: 4.00/4.00
     # details:
     #   - "Advisor: \\href{https://people.cs.vt.edu/~ltw/shortvita.html}{Dr. Salih Ergut}"
-
-
 
 research:
   - place: University of Southern California
@@ -222,6 +213,17 @@ industry:
       # - Created {\bf Bash} scripts for incremental backups with rsync
       #   and hard links.
 
+summer_schools:
+  - school: "\\href{https://deepbayes.ru/2019/}{Deep|Bayes Summer School}"
+    location: Moscow, RU
+    dates: Aug 20-25 2019
+    details:
+      - "Honored to \\href{https://cs.hse.ru/en/big-data/bayeslab/news/303676800.html}{comment} about the school "
+  - school: "\\href{https://project.inria.fr/paiss/home-2019/}{PRAIRIE PAISS AI Summer School}"
+    location: Paris, FR
+    dates: Oct 3-5 2019
+
+
 teaching:
   - semester: S2017
     name: Graduate AI
@@ -244,7 +246,7 @@ teaching:
 #   group_by_year: False
 
 all_publications:
-  name: "B. Amos"
+  name: "E. Ceyani"
   file: all.bib
   sort_bib: True
   include_image: True
