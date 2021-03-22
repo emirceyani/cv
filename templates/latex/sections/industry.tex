@@ -9,12 +9,13 @@
       \textbf{<< item.place>>}
       ~< endif >~
       | << item.location >>
+      \hfill << item.dates >> \par
         ~< if item.details >~
         ~< for detail in item.details ->~
-            | <<detail>>
+            \par <<detail>>
         ~<- endfor ->~
         ~< endif >~
-        \hfill << item.dates >> \par
+        
     ~< endfor >~
   % \end{itemize}
 ~< endblock body >~

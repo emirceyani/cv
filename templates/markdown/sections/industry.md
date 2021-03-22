@@ -14,7 +14,7 @@
 | {{ i.location }}
 {% if i.details %}
 {% for detail in i.details %}
-| {{ detail }}
+  <br> {{ detail }}
 {% endfor %}
 {% endif %}
 </p>
