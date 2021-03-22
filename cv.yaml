@@ -44,8 +44,7 @@ order:
 
 about: 
   I'm a 1st year Ph.D. student in <b>Prof. Salman Avestimehr</b>'s vITAL Lab at <b>University of Southern California (USC)</b> in Los Angeles .
-  I study foundational topics and applications in <b>federated learning</b>,<b>graph neural networks</b>,<b>probabilistic deep learning</b>, and <b>information theory</b> .
- In my research, I seek to design learning algorithms that can cope with non I.I.D. nature of real-life data in federated setting. I try to actively contribute to \href{https://github.com/FedML-AI/FedML}{FedML}, a promising research library for federated learning
+  I study foundational topics and applications in <b>federated learning</b>,<b>graph neural networks</b>,<b>probabilistic deep learning</b>, and <b>information theory</b> . In my research, I seek to design learning algorithms that can cope with non I.I.D. nature of real-life data in federated setting. I try to actively contribute to \href{https://github.com/FedML-AI/FedML}{FedML}, a promising research library for federated learning
   as I believe that federated learning systems should be accessible everyone.
   
   During my masters, I was an  R\&D Engineer at Turkcell Technology under my master's advisor, Dr. Salih Ergut, thanks to the 5G & Beyond Graduate Scholarship.
@@ -74,9 +73,9 @@ repos:
   #   year: 2019
   #   desc: Ph.D.~Thesis LaTeX source code
 
-  - repo_url: https://github.com/bamos/cv
-    year: 2013
-    desc: My YAML/LaTeX/Markdown cv
+  # - repo_url: https://github.com/bamos/cv
+  #   year: 2013
+  #   desc: My YAML/LaTeX/Markdown cv
 
 education:
   - school: University of Southern California
@@ -149,7 +148,7 @@ summer_schools:
     location: Moscow, RU
     dates: Aug 20-25 2019
     details:
-      - "Acceptance rate with examination < 30% , with travel \\& accomodation grant"
+      - "Acceptance rate with examination < 30\\% , with travel \\& accomodation grant"
       - "Honored to \\href{https://cs.hse.ru/en/big-data/bayeslab/news/303676800.html}{comment} for the \\href{https://deepbayes.ru/2019/}{school}"
   - school: PRAIRIE PAISS AI Summer School
     location: Paris, FR
@@ -159,17 +158,21 @@ summer_schools:
 
 
 teaching:
-  - semester: S2017
-    name: Graduate AI
-    short: CMU 15-780
+  - semester: Fall 2020
+    name: Neural Networks
+    short: Bilkent EEE 443-543
+    position: Grader
+  - semester: Fall 2019 - Spring 2020
+    name: Industrial Design Project I-II
+    short: Bilkent 493-494
     position: TA
-  - semester: S2016
-    name: Distributed Systems
-    short: CMU 15-440/640
+  - semester: Spring 2019
+    name: Signals and Systems
+    short: Bilkent EEE-321
     position: TA
-  - semester: S2013
-    name: Software Design and Data Structures
-    short: VT CS2114
+  - semester: Fall 2018
+    name: Digital Signal Processing
+    short: Bilkent EEE-424
     position: TA
 
 # selected_publications:
@@ -241,9 +244,7 @@ skills:
     details: Linux,vim, git, tmux, zsh
 
 honors:
-  - title: Travel \& Accomodation Grant for PRAIRIE AI machine learning summer school.
-    year: 2019
-  - title: Travel \& Accomodation Grant for Deep|Bayes machine learning summer school.
+  - title: Travel \& Accomodation Grant for Deep|Bayes \& PRAIRIE AI ML summer schools.
     year: 2019
   - title: 5G \& Beyond Graduate Support Program
     year: 2018 - 2020
