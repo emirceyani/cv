@@ -68,9 +68,9 @@ repos:
   - repo_url: https://github.com/FedML-AI/FedML
     year: 2020
     desc: FedML - A Research-oriented Federated Learning Library
-  - repo_url: https://github.com/FedML-AI/FedGraphNN
-    year: 2021
-    desc: FedGraphNN - A Research-oriented Federated Learning Library
+  # - repo_url: https://github.com/FedML-AI/FedGraphNN
+  #   year: 2021
+  #   desc: FedGraphNN - A Research-oriented Federated Learning Library
 
   # - repo_url: https://github.com/bamos/thesis
   #   year: 2019
