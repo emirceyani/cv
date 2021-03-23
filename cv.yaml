@@ -43,7 +43,7 @@ order:
 
 about: 
   I am a Ph.D. student in \href{https://www.avestimehr.com/}{<b>Prof. Salman Avestimehr</b>}'s Information Theory and Machine Learning (vITAL) research lab at the <b>University of Southern California (USC)</b> in Los Angeles .
-  I pursue research on the foundations and applications of <b>federated learning</b>, <b>graph neural networks</b>, <b>probabilistic deep learning</b> with stochastic variational inference, and <b>information theory</b>.  I seek to design learning algorithms that can effectively handle the non-I.I.D. nature of real-life data in federated setting. I try to actively contribute to \href{https://github.com/FedML-AI/FedML}{FedML}, a promising research library for federated learning
+  I pursue research on the foundations and applications of <b>federated learning</b>, <b>graph neural networks</b>, <b>probabilistic deep learning</b>, and <b>information theory</b>.  I seek to design learning algorithms that can effectively handle the non-I.I.D. nature of real-life data in federated setting. I try to actively contribute to \href{https://github.com/FedML-AI/FedML}{FedML}, a promising research library for federated learning
   as I believe that federated learning systems should be accessible for everyone.
   Previously, I was a Master's student at Bilkent University, Ankara, Turkey, and an R&D engineer at Turkcell Technology under my master’s advisor, \href{https://www.linkedin.com/in/ergut/}{<b>Dr. Salih Ergut</b>} with a prestigious 5G & Beyond Graduate Support Program.
 
