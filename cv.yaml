@@ -43,11 +43,11 @@ order:
   - [skills, Skills]
 
 about: 
-  I'm a 1st year Ph.D. student in <b>Prof. Salman Avestimehr</b>'s vITAL Lab at <b>University of Southern California (USC)</b> in Los Angeles .
-  I study foundational topics and applications in <b>federated learning</b>,<b>graph neural networks</b>,<b>probabilistic deep learning</b>, and <b>information theory</b> . In my research, I seek to design learning algorithms that can cope with non I.I.D. nature of real-life data in federated setting. I try to actively contribute to \href{https://github.com/FedML-AI/FedML}{FedML}, a promising research library for federated learning
+  I'm a 1st year Ph.D. student in \href{https://www.avestimehr.com/}{<b>Prof. Salman Avestimehr</b>}'s vITAL Lab at <b>University of Southern California (USC)</b> in Los Angeles .
+  I study foundational topics and applications in <b>federated learning</b>, <b>graph neural networks</b>, <b>probabilistic deep learning</b>(focused on stochastic variational inference), and <b>information theory</b> . In my research, I seek to design learning algorithms that can cope with non I.I.D. nature of real-life data in federated setting. I try to actively contribute to \href{https://github.com/FedML-AI/FedML}{FedML}, a promising research library for federated learning
   as I believe that federated learning systems should be accessible everyone.
   
-  During my masters, I was an  R\&D Engineer at Turkcell Technology under my master's advisor, Dr. Salih Ergut, thanks to the 5G & Beyond Graduate Scholarship.
+  During my masters, I was an  R\&D Engineer at Turkcell Technology under my master's advisor, \href{https://www.linkedin.com/in/ergut/}{<b>Dr. Salih Ergut</b>}, thanks to the 5G & Beyond Graduate Scholarship.
 
 service:
   - details: "Reviewing: IEEE TNNLS"
@@ -66,8 +66,11 @@ service:
 
 repos:
   - repo_url: https://github.com/FedML-AI/FedML
-    year: 2021
+    year: 2020
     desc: FedML - A Research-oriented Federated Learning Library
+  - repo_url: https://github.com/FedML-AI/FedGraphNN
+    year: 2021
+    desc: FedGraphNN - A Research-oriented Federated Learning Library
 
   # - repo_url: https://github.com/bamos/thesis
   #   year: 2019
@@ -237,7 +240,7 @@ skills:
   - title: Languages
     details: C, C++, Java, MATLAB, Julia, Python
   - title: Frameworks
-    details: JAX, NumPy, Pandas, PyTorch, SciPy, TensorFlow
+    details: JAX, NumPy, Pandas, PyTorch, SciPy, Keras, TensorFlow 2.0
   - title: Tools
     details: Linux,vim, git, tmux, zsh
 
