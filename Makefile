@@ -45,8 +45,8 @@ viewpdf: $(PDF)
 	gnome-open $(PDF)
 
 stage: $(PDF) $(MD)
-	cp $(PDF) $(WEBSITE_PDF)
-	cp $(MD) $(WEBSITE_MD)
+	cp -f $(PDF) $(WEBSITE_PDF)
+	cp -f $(MD) $(WEBSITE_MD)
 	date +%Y-%m-%d > $(WEBSITE_DATE)
 
 jekyll: stage

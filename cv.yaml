@@ -9,7 +9,7 @@ url: "emirceyani.github.io"
 social:
   github: emirceyani
   twitter: ceyaniemir
-  linkedin: emir-ceyani-1b4974209
+  linkedin: emir-ceyani
   google_scholar: d8gdZR4AAAAJ
 # Erdős  number is at most 4.
 # (Brandon Amos -> Layne Watson -> Leroy Kelly -> Zoltán Füredi -> Paul Erdős )
@@ -25,14 +25,14 @@ order:
   # - [news, News]
   - [positions, Current Position]
   - [education, Education]
+  - [all_publications, Publications]
   - [industry, Industry Experience]
   # - [research, Research Experience]
-  - [selected_publications, Selected Publications]
+  # - [selected_publications, Selected Publications]
   - [honors, Honors \& Awards]
   # - [projects, Projects]
   # - [coursework, CMU Graduate Coursework]
 #  - [activities, Activities]
-  - [all_publications, Publications]
   # - [NEWPAGE, NEWPAGE]
   #- [talks, Invited Talks]
   #- [advising, Students \& Advising]
@@ -83,9 +83,9 @@ education:
   - school: University of Southern California
     location: Los Angeles, CA
     degree: Ph.D. in Electrical \& Computer Engineering
-    dates: Jan 2021 -- 
+    dates: Jan 2021 -- Present
     details:
-       - "Advisor: Prof. \\href{http://avestimehr.com}{Salman Avestimehr}"
+       - "Advisor: \\href{http://avestimehr.com}{Prof. Salman Avestimehr}"
 
 
   - school: Bilkent University 
@@ -160,12 +160,12 @@ teaching:
     short: Bilkent EEE-424
     position: TA
 
-selected_publications:
-  name: "E. Ceyani"
-  file: selected.bib
-  sort_bib: False
-  include_image: True
-  group_by_year: False
+# selected_publications:
+#   name: "E. Ceyani"
+#   file: selected.bib
+#   sort_bib: True
+#   include_image: True
+#   group_by_year: True
 
 all_publications:
   name: "E. Ceyani"
@@ -234,7 +234,7 @@ honors:
     descr: Travel \& Accomodation Grant
   - title: 5G \& Beyond Graduate Support Program and Bilkent Graduate Scholarship
     year: 2018 - 2020
-    descr: Funded during M.Sc. studies by Bilkent University and Information Technologies and Communication Authority(ICT) (Awarded for the first time in Fall 2018). 
+    descr: Funded during M.Sc. studies by Bilkent University and ICT(Awarded for the first time). 
   - title: Research Excellence Award
     descr:  Awarded by Bilkent University Electrical and Electronics Engineering Department.
     year: 2018
