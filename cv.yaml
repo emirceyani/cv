@@ -8,7 +8,7 @@ src: https://github.com/emirceyani/ceyani-websitev2
 url: "emirceyani.github.io"
 social:
   github: emirceyani
-  twitter: ceyani\_emir
+  twitter: ceyaniemir
   linkedin: emir-ceyani-1b4974209
   google_scholar: d8gdZR4AAAAJ
 # Erdős  number is at most 4.
@@ -27,7 +27,7 @@ order:
   - [education, Education]
   - [industry, Industry Experience]
   # - [research, Research Experience]
-  # - [selected_publications, Selected Publications]
+  - [selected_publications, Selected Publications]
   - [honors, Honors \& Awards]
   # - [projects, Projects]
   # - [coursework, CMU Graduate Coursework]
@@ -37,7 +37,6 @@ order:
   #- [talks, Invited Talks]
   #- [advising, Students \& Advising]
   - [service, Professional Activities]
-  - [summer_schools, Summer Schools Attended]
   - [teaching, Teaching]
   - [repos, Repositories]
   - [skills, Skills]
@@ -86,8 +85,7 @@ education:
     degree: Ph.D. in Electrical \& Computer Engineering
     dates: Jan 2021 -- 
     details:
-      - "Thesis Topic: Federated Data Analytics"
-      - "Advisor: \\href{http://avestimehr.com}{Salman Avestimehr}"
+       - "Advisor: Prof. \\href{http://avestimehr.com}{Salman Avestimehr}"
 
 
   - school: Bilkent University 
@@ -109,14 +107,14 @@ research:
   - place: University of Southern California
     location: Los Angeles
     title: Research Assistant
-    advisor: Salman Avestimehr
+    advisor: Prof. Salman Avestimehr
     dates: Jan 2021 -- 
     area: Federated learning, graph neural networks, probabilistic deep learning, information theory
   - place: Bilkent University
     location: Ankara TR
     title: Research \& Teaching Assistant
     dates: June 2018 -- Sept 2020
-    advisor: Salih Ergut
+    advisor: Dr. Salih Ergut
     area: Machine learning
     # details:
     #   - |
@@ -128,7 +126,7 @@ research:
 
 positions:
   - place: University of Southern California
-    location: LA
+    location: Los Angeles, CA
     title: Research Assistant
     # dates: May 2019 -- Present
     dates: Jan 2021-- Present
@@ -142,21 +140,7 @@ industry:
     # dates: June 2018 -- Sept 2018
     details:  
     # \href{https://etkinlik.btk.gov.tr/forum/content/263}{
-     - "Developed deep learning algorithms for forecasting spatio-temporal grid and graph-structured mobile traffic series collected from 4G/5G base stations under non-stationary environments, resulted in my master's thesis."
-
-summer_schools:
-  - school: Deep|Bayes Summer School
-    location: Moscow, RU
-    dates: Aug 20-25 2019
-    details:
-      - "Acceptance rate with examination < 30\\% , with travel \\& accomodation grant"
-      - "Honored to \\href{https://cs.hse.ru/en/big-data/bayeslab/news/303676800.html}{comment} for the \\href{https://deepbayes.ru/2019/}{school}"
-  - school: PRAIRIE PAISS AI Summer School
-    location: Paris, FR
-    dates: Oct 3-5 2019
-    details:
-      - "\\href{https://project.inria.fr/paiss/home-2019/}{Accepted} with travel \\& accomodation grant"
-
+     - "Developed deep learning algorithms for forecasting spatio-temporal grid and graph-structured mobile traffic series collected from 4G/5G base stations under non-stationary environments."
 
 teaching:
   - semester: Fall 2020
@@ -176,12 +160,12 @@ teaching:
     short: Bilkent EEE-424
     position: TA
 
-# selected_publications:
-#   name: "B. Amos"
-#   file: selected.bib
-#   sort_bib: False
-#   include_image: True
-#   group_by_year: False
+selected_publications:
+  name: "E. Ceyani"
+  file: selected.bib
+  sort_bib: False
+  include_image: True
+  group_by_year: False
 
 all_publications:
   name: "E. Ceyani"
@@ -245,15 +229,12 @@ skills:
     details: Linux,vim, git, tmux, zsh
 
 honors:
-  - title: Travel \& Accomodation Grant for Deep|Bayes \& PRAIRIE AI ML summer schools.
+  - title: Deep|Bayes \& PRAIRIE AI ML summer schools.
     year: 2019
-  - title: 5G \& Beyond Graduate Support Program
+    descr: Travel \& Accomodation Grant
+  - title: 5G \& Beyond Graduate Support Program and Bilkent Graduate Scholarship
     year: 2018 - 2020
-    descr: Funded through 5G and Beyond Joint Graduate Support Program during M.Sc. studies by Information Technologies and Communication Authority(ICT) (Awarded for the first time in Fall 2018). For this program, I also worked as a research engineer at Turkcell.
-
-  - title: Graduate Scholarship for M.Sc. Studies
-    year: 2018-2020
-    descr:  Awarded by Bilkent University for M.Sc. studies.
+    descr: Funded during M.Sc. studies by Bilkent University and Information Technologies and Communication Authority(ICT) (Awarded for the first time in Fall 2018). 
   - title: Research Excellence Award
     descr:  Awarded by Bilkent University Electrical and Electronics Engineering Department.
     year: 2018
