@@ -139,9 +139,7 @@ industry:
     # dates: June 2018 -- Sept 2018
     details:  
     # \href{https://etkinlik.btk.gov.tr/forum/content/263}{
-     - "Worked under the requirements of 5G \\& Beyond Joint Graduate Support Program. "
      - "Developed deep learning algorithms for forecasting spatio-temporal grid and graph-structured mobile traffic series collected from 4G/5G base stations under non-stationary environments, resulted in my master's thesis."
-     - "As an R\\&D team, we have proposed a challenge and received research support from \\href{https://www.gsma.com/newsroom/blog/gsma-global-ai-challenge-2019/}{Alan Turing Institute Data Science Group}."
 
 summer_schools:
   - school: Deep|Bayes Summer School
@@ -248,7 +246,8 @@ honors:
     year: 2019
   - title: 5G \& Beyond Graduate Support Program
     year: 2018 - 2020
-    descr: Funded through G and Beyond Joint Graduate Support Program during M.Sc. studies by Information Technologies and Communication Authority(ICT) (Awarded for the first time in Fall 2018). 
+    descr: Funded through 5G and Beyond Joint Graduate Support Program during M.Sc. studies by Information Technologies and Communication Authority(ICT) (Awarded for the first time in Fall 2018). For this program, I also worked as a research engineer at Turkcell.
+
   - title: Graduate Scholarship for M.Sc. Studies
     year: 2018-2020
     descr:  Awarded by Bilkent University for M.Sc. studies.
