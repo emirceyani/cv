@@ -46,6 +46,7 @@ viewpdf: $(PDF)
 
 stage: $(PDF) $(MD)
 	cp -f $(PDF) $(WEBSITE_PDF)
+	cp -f $(PDF) $(WEBSITE_DIR)/data/cv.pdf
 	cp -f $(MD) $(WEBSITE_MD)
 	date +%Y-%m-%d > $(WEBSITE_DATE)
 
