@@ -1,10 +1,10 @@
 # About
 This repo contains the source I use to automatically generate
 my curriculum vitae as a
-[webpage](http://bamos.github.io)
+[webpage](http://ceyani.io)
 and
-[PDF](http://bamos.github.io/data/cv.pdf)
-from YAML and BibTeX input.
+[PDF](http://ceyani.io/data/cv.pdf)
+from YAML and BibTeX input. Inspired from Brandon Amos' [webpage](http://bamos.github.io).
 
 [generate.py](generate.py) reads from [cv.yaml](cv.yaml) and
 [publications](publications) and outputs LaTeX and Markdown
