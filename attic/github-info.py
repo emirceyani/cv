@@ -24,7 +24,7 @@ def getRepos(user):
     sys.exit(-1)
 
 if __name__=="__main__":
-  repos = getRepos('bamos')
+  repos = getRepos('emirceyani')
   forkCount = len(list(filter(lambda r: r['fork'], repos)))
   origCount = len(repos) - forkCount
   print(

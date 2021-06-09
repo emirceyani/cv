@@ -38,8 +38,8 @@ def parseTags(tagContent):
   return [x[0] for x in sortedTags]
 
 if __name__=='__main__':
-  archiveContent = getContent('http://bamos.github.io/archives/')
-  tagContent = getContent('http://bamos.github.io/tags/')
+  archiveContent = getContent('http://emirceyani.github.io/archives/')
+  tagContent = getContent('http://emirceyani.github.io/tags/')
   print(
     "{} posts across the following tags, listed by highest frequency.".format(
       numPostsFromArchives(archiveContent)
