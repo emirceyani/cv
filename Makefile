@@ -40,6 +40,7 @@ $(PDF): $(TEX)
 
 	latexmk -pdf -cd- -jobname=$(BUILD_DIR)/cv $(BUILD_DIR)/cv
 	latexmk -c -cd $(BUILD_DIR)/cv
+	pdflatex -synctex=1 -interaction=nonstopmode $(BUILD_DIR)/"cv".tex
 
 viewpdf: $(PDF)
 	gnome-open $(PDF)

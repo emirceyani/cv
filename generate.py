@@ -14,6 +14,7 @@ import re
 import yaml
 
 import requests
+from requests_html import HTMLSession
 from bs4 import BeautifulSoup
 
 import shelve
@@ -314,24 +315,24 @@ def get_pub_latex(context, config):
 def add_repo_data(context, config):
     repo_htmls = shelve.open('repo_htmls.shelf')
 
-
     for item in config:
         assert 'repo_url' in item
         assert 'year' in item
         assert 'github' in item['repo_url']
 
         short_name = re.search('.*github\.com/(.*)', item['repo_url'])[1]
+        print(repo_htmls[short_name])
         if 'name' not in item:
             item['name'] = short_name
-
         # Scrape the repo HTML instead of using the GitHub API
         # to avoid being rate-limited (sorry), and be nice by
         # caching to disk.
         if short_name not in repo_htmls:
             r = requests.get(item['repo_url'])
             repo_htmls[short_name] = r.content
-        soup = BeautifulSoup(repo_htmls[short_name], 'html.parser')
 
+        ht = requests.get(item['repo_url']).text
+        soup = BeautifulSoup(ht, 'lxml')
         item['stars'] = soup.find(
             'a', class_="social-count js-social-count"
         ).text.strip()

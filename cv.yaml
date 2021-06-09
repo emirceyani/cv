@@ -16,24 +16,21 @@ social:
 
 # LaTeX formatting.
 style: banking # casual, classic, oldstyle, or banking
-color: blue # blue, orange, green, red, purple, grey and black
+color: purple # blue, orange, green, red, purple, grey and black
 color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
 
 # (tag, section type, title)
 order:
-  - [about, NONE]
+  - [about, Short Bio]
   # - [news, News]
   - [positions, Current Position]
   - [education, Education]
   - [all_publications, Publications]
   - [industry, Industry Experience]
-  # - [research, Research Experience]
+  - [research, Research Experience]
   # - [selected_publications, Selected Publications]
   - [honors, Honors \& Awards]
-  # - [projects, Projects]
-  # - [coursework, CMU Graduate Coursework]
 #  - [activities, Activities]
-  # - [NEWPAGE, NEWPAGE]
   #- [talks, Invited Talks]
   #- [advising, Students \& Advising]
   - [service, Professional Activities]
@@ -47,10 +44,8 @@ about:
   as I believe that federated learning systems should be accessible for everyone.
   Previously, I was a Master's student at Bilkent University, Ankara, Turkey, and an R&D engineer at Turkcell Technology under my master’s advisor, \href{https://www.linkedin.com/in/ergut/}{<b>Dr. Salih Ergut</b>} with a prestigious 5G & Beyond Graduate Support Program.
 
-
-
 service:
-  - details: "Reviewing: IEEE TNNLS"
+  - details: "Reviewing: IEEE Transactions on Neural Networks and Learning Systems, Transactions on Big Data"
     #sub_details: "*Outstanding reviewer"
   # - details: NeurIPS Learning Meets Combinatorial Optimization Workshop Organizer
   #   year: 2020
@@ -68,17 +63,9 @@ repos:
   - repo_url: https://github.com/FedML-AI/FedML
     year: 2020
     desc: FedML - A Research-oriented Federated Learning Library
-  # - repo_url: https://github.com/FedML-AI/FedGraphNN
-  #   year: 2021
-  #   desc: FedGraphNN - A Research-oriented Federated Learning Library
-
-  # - repo_url: https://github.com/bamos/thesis
-  #   year: 2019
-  #   desc: Ph.D.~Thesis LaTeX source code
-
-  # - repo_url: https://github.com/bamos/cv
-  #   year: 2013
-  #   desc: My YAML/LaTeX/Markdown cv
+  - repo_url: https://github.com/FedML-AI/FedGraphNN
+    year: 2021
+    desc: FedGraphNN - A Research-oriented Federated Learning Library for Graph Neural Networks
 
 education:
   - school: University of Southern California
@@ -109,21 +96,15 @@ research:
     location: Los Angeles
     title: Research Assistant
     advisor: Prof. Salman Avestimehr
-    dates: Jan 2021 -- 
+    dates: Jan 2021 -- Present
     area: Federated learning, graph neural networks, probabilistic deep learning, information theory
   - place: Bilkent University
     location: Ankara TR
     title: Research \& Teaching Assistant
     dates: June 2018 -- Sept 2020
     advisor: Dr. Salih Ergut
-    area: Machine learning
-    # details:
-    #   - |
-    #       Face recognition with deep neural networks:
-    #       \url{http://github.com/cmusatyalab/openface}
-  
-  
-  -
+    area: Spatiotemporal Traffic Forecasting with Deep Learning Models
+
 
 positions:
   - place: University of Southern California
@@ -196,10 +177,6 @@ all_publications:
 
 # talks:
 #   - year: 2020
-#     location: Max Planck Institute for Intelligent Systems (Tübingen) Seminar
-#   - year: 2020
-#     location: Montreal Institute for Learning Algorithms Seminar
-#   - year: 2020
 #     location: ECCV Deep Declarative Networks Tutorial
 #     url: https://anucvml.github.io/ddn-eccvt2020/
 
@@ -208,28 +185,18 @@ all_publications:
 #     name: Aaron Lou
 #     details: (Cornell), FAIR Intern (with Max Nickel)
 #     url: https://www.aaronlou.com/
-#   - year: 2020
-#     name: Ricky Chen
-#     details: (Toronto), FAIR Intern (with Max Nickel)
-#     url: http://www.cs.toronto.edu/~rtqichen/
 
-# coursework:
-#   - semester: S2017
-#     name: Statistical Machine Learning (10-702, Au)
-#     instructor: L. Wasserman
-#   - semester: S2017
-#     name: Deep Reinforcement Learning (10-703, Au)
-#     instructor: R. Salakhutdinov and A. Fragkiadaki
 
 skills:
   - title: Languages
     details: C, C++, Java, MATLAB, Julia, Python
   - title: Frameworks
-    details: JAX, NumPy, Pandas, PyTorch, SciPy, Keras, TensorFlow 2.0
+    details: JAX, NumPy, Pandas, PyTorch, SciPy, Keras
   - title: Tools
-    details: Linux,vim, git, tmux, zsh
+    details: Linux, vim, git, tmux, zsh
 
 honors:
+
   - title: Deep|Bayes \& PRAIRIE AI ML summer schools.
     year: 2019
     descr: Travel \& Accomodation Grant
@@ -241,25 +208,6 @@ honors:
     year: 2018
     
   
-# projects:
-#   website:
-#     name: Personal Blog and Website
-#     url: http://bamos.github.io
-#     details:
-#       - Hosted on GitHub Pages. Uses {\bf Markdown} for posts and {\bf Jekyll}
-#           for static HTML generation.
-#       - '{\bf 42 posts} across the following tags,
-#         listed by highest frequency.'
-#       - Python, Bash, Linux, LaTeX, Fortran, Android, Scala, News,
-#         JavaScript, Zsh, C++, OpenMP, Lua, Make, Mathematica, mpv
-#   github:
-#     name: GitHub Portfolio
-#     url: http://github.com/bamos
-#     details:
-#       - Hosts code samples, original source code, and patches for
-#         open source projects.
-#       - 25 original repositories, 5 forked repositories.
-
 # activities:
 #   - Honors Residential College, Virginia Tech, 2013 -- 2014
 #   - Hokies Pep Band, Virginia Tech, 2012 -- 2013
