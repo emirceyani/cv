@@ -321,7 +321,6 @@ def add_repo_data(context, config):
         assert 'github' in item['repo_url']
 
         short_name = re.search('.*github\.com/(.*)', item['repo_url'])[1]
-        print(repo_htmls[short_name])
         if 'name' not in item:
             item['name'] = short_name
         # Scrape the repo HTML instead of using the GitHub API
