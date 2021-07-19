@@ -183,13 +183,11 @@ all_publications:
     #   prefix: S
     #   file: posters.bib
 
-# talks:
+talks:
   - year: 2021
     location: OREDATA
-    url: https://anucvml.github.io/ddn-eccvt2020/
   - year: 2021
-    location: ECCV Deep Declarative Networks Tutorial
-    url: https://anucvml.github.io/ddn-eccvt2020/
+    location: MIT - FL Reading Group
 
 # advising:
 #   - year: 2020
