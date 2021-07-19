@@ -4,7 +4,7 @@
 # Ellis Michael <http://ellismichael.com>
 
 WEBSITE_DIR=$(HOME)/Documents/website-stuff/emirceyani.github.io
-WEBSITE_PDF=$(WEBSITE_DIR)/_site/data/cv.pdf
+WEBSITE_PDF=$(WEBSITE_DIR)//data/cv.pdf
 WEBSITE_MD=$(WEBSITE_DIR)/_includes/cv.md
 WEBSITE_DATE=$(WEBSITE_DIR)/_includes/last-updated.txt
 
