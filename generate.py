@@ -93,6 +93,12 @@ def get_pub_md(context, config):
         if 'slideurl' in pub:
             links.append(
                 "[<a href=\'{}\' target='_blank'>slide</a>] ".format(pub['slideurl']))
+        if 'posterurl' in pub:
+            links.append(
+                "[<a href=\'{}\' target='_blank'>poster</a>] ".format(pub['posterurl']))
+        if 'videourl' in pub:
+            links.append(
+                "[<a href=\'{}\' target='_blank'>video</a>] ".format(pub['videourl']))
         links = ' '.join(links)
 
         if abstract:
