@@ -16,7 +16,7 @@ social:
 
 # LaTeX formatting.
 style: banking # casual, classic, oldstyle, or banking
-color: purple # blue, orange, green, red, purple, grey and black
+color: blue # blue, orange, green, red, purple, grey and black
 color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
 
 # (tag, section type, title)
@@ -31,7 +31,7 @@ order:
   # - [selected_publications, Selected Publications]
   - [honors, Honors \& Awards]
 #  - [activities, Activities]
-  #- [talks, Invited Talks]
+  - [talks, Invited Talks]
   #- [advising, Students \& Advising]
   - [service, Professional Activities]
   - [teaching, Teaching]
@@ -45,7 +45,11 @@ about:
   Previously, I was a Master's student at Bilkent University, Ankara, Turkey, and an R&D engineer at Turkcell Technology under my master’s advisor, \href{https://www.linkedin.com/in/ergut/}{<b>Dr. Salih Ergut</b>} with a prestigious 5G & Beyond Graduate Support Program.
 
 service:
-  - details: "Reviewing: IEEE Transactions on Neural Networks and Learning Systems, Transactions on Big Data"
+  - details: "Reviewing: IEEE TNNLS, TBDCS"
+    year: 2019 - 
+  - details: "Teaching Assistant at ProbAI 2021 Summer School"
+    url: https://probabilistic.ai/contact/
+    year: 2021
     #sub_details: "*Outstanding reviewer"
   # - details: NeurIPS Learning Meets Combinatorial Optimization Workshop Organizer
   #   year: 2020
@@ -66,6 +70,9 @@ repos:
   - repo_url: https://github.com/FedML-AI/FedGraphNN
     year: 2021
     desc: FedGraphNN - A Research-oriented Federated Learning Library for Graph Neural Networks
+  - repo_url: https://github.com/FedML-AI/SpreadGNN
+    year: 2021
+    desc: SpreadGNN - Serverless Multi-Task Federated Learning for Graph Neural Networks
 
 education:
   - school: University of Southern California
@@ -125,6 +132,7 @@ industry:
      - "Developed deep learning algorithms for forecasting spatio-temporal grid and graph-structured mobile traffic series collected from 4G/5G base stations under non-stationary environments."
 
 teaching:
+  
   - semester: Fall 2020
     name: Neural Networks
     short: Bilkent EEE 443-543
@@ -176,9 +184,12 @@ all_publications:
     #   file: posters.bib
 
 # talks:
-#   - year: 2020
-#     location: ECCV Deep Declarative Networks Tutorial
-#     url: https://anucvml.github.io/ddn-eccvt2020/
+  - year: 2021
+    location: OREDATA
+    url: https://anucvml.github.io/ddn-eccvt2020/
+  - year: 2021
+    location: ECCV Deep Declarative Networks Tutorial
+    url: https://anucvml.github.io/ddn-eccvt2020/
 
 # advising:
 #   - year: 2020
@@ -191,7 +202,7 @@ skills:
   - title: Languages
     details: C, C++, Java, MATLAB, Julia, Python
   - title: Frameworks
-    details: JAX, NumPy, Pandas, PyTorch, SciPy, Keras
+    details: JAX, NumPy, Pandas, PyTorch, Pyro, SciPy, Keras
   - title: Tools
     details: Linux, vim, git, tmux, zsh
 
@@ -199,7 +210,7 @@ honors:
 
   - title: Deep|Bayes \& PRAIRIE AI ML summer schools.
     year: 2019
-    descr: Travel \& Accomodation Grant
+    descr: Travel \& Accommodation Grant
   - title: 5G \& Beyond Graduate Support Program and Bilkent Graduate Scholarship
     year: 2018 - 2020
     descr: Funded during M.Sc. studies by Bilkent University and ICT(Awarded for the first time). 

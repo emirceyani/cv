@@ -90,6 +90,9 @@ def get_pub_md(context, config):
         if 'codeurl' in pub:
             links.append(
                 "[<a href=\'{}\' target='_blank'>code</a>] ".format(pub['codeurl']))
+        if 'slideurl' in pub:
+            links.append(
+                "[<a href=\'{}\' target='_blank'>slide</a>] ".format(pub['slideurl']))
         links = ' '.join(links)
 
         if abstract:
@@ -253,6 +256,10 @@ def get_pub_latex(context, config):
         if 'codeurl' in pub:
             links.append(
                 r"[\href{{{}}}{{code}}] ".format(pub['codeurl']))
+
+        if 'slideurl' in pub:
+            links.append(
+                r"[\href{{{}}}{{slide}}] ".format(pub['slideurl']))
         links = ' '.join(links)
 
         highlight_color = '\cellcolor{tab_highlight}' if 'selected' in pub else ''
