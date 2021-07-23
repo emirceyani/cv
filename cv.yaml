@@ -23,18 +23,17 @@ color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
 order:
   - [about, Short Bio]
   # - [news, News]
-  - [positions, Current Position]
   - [education, Education]
   - [all_publications, Publications]
   - [industry, Industry Experience]
-  - [research, Research Experience]
+  #- [research, Research Experience]
   # - [selected_publications, Selected Publications]
   - [honors, Honors \& Awards]
 #  - [activities, Activities]
   - [talks, Invited Talks]
   #- [advising, Students \& Advising]
   - [service, Professional Activities]
-  - [teaching, Teaching]
+ # - [teaching, Teaching]
   - [repos, Repositories]
   - [skills, Skills]
 
@@ -98,27 +97,20 @@ education:
     # details:
     #   - "Advisor: \\href{https://people.cs.vt.edu/~ltw/shortvita.html}{Dr. Salih Ergut}"
 
-research:
-  - place: University of Southern California
-    location: Los Angeles
-    title: Research Assistant
-    advisor: Prof. Salman Avestimehr
-    dates: Jan 2021 -- Present
-    area: Federated learning, graph neural networks, probabilistic deep learning, information theory
-  - place: Bilkent University
-    location: Ankara TR
-    title: Research \& Teaching Assistant
-    dates: June 2018 -- Sept 2020
-    advisor: Dr. Salih Ergut
-    area: Spatiotemporal Traffic Forecasting with Deep Learning Models
+# research:
+#   - place: University of Southern California
+#     location: Los Angeles
+#     title: Research Assistant
+#     advisor: Prof. Salman Avestimehr
+#     dates: Jan 2021 -- Present
+#     area: Federated learning, graph neural networks, probabilistic deep learning, information theory
+#   - place: Bilkent University
+#     location: Ankara TR
+#     title: Research \& Teaching Assistant
+#     dates: June 2018 -- Sept 2020
+#     advisor: Dr. Salih Ergut
+#     area: Spatiotemporal Traffic Forecasting with Deep Learning Models
 
-
-positions:
-  - place: University of Southern California
-    location: Los Angeles, CA
-    title: Research Assistant
-    # dates: May 2019 -- Present
-    dates: Jan 2021-- Present
 
 industry:
   - place: Turkcell Technology 
@@ -131,24 +123,24 @@ industry:
     # \href{https://etkinlik.btk.gov.tr/forum/content/263}{
      - "Developed deep learning algorithms for forecasting spatio-temporal grid and graph-structured mobile traffic series collected from 4G/5G base stations under non-stationary environments."
 
-teaching:
+# teaching:
   
-  - semester: Fall 2020
-    name: Neural Networks
-    short: Bilkent EEE 443-543
-    position: Grader
-  - semester: Fall 2019 - Spring 2020
-    name: Industrial Design Project I-II
-    short: Bilkent 493-494
-    position: TA
-  - semester: Spring 2019
-    name: Signals and Systems
-    short: Bilkent EEE-321
-    position: TA
-  - semester: Fall 2018
-    name: Digital Signal Processing
-    short: Bilkent EEE-424
-    position: TA
+#   - semester: Fall 2020
+#     name: Neural Networks
+#     short: Bilkent EEE 443-543
+#     position: Grader
+#   - semester: Fall 2019 - Spring 2020
+#     name: Industrial Design Project I-II
+#     short: Bilkent 493-494
+#     position: TA
+#   - semester: Spring 2019
+#     name: Signals and Systems
+#     short: Bilkent EEE-321
+#     position: TA
+#   - semester: Fall 2018
+#     name: Digital Signal Processing
+#     short: Bilkent EEE-424
+#     position: TA
 
 # selected_publications:
 #   name: "E. Ceyani"
