@@ -11,6 +11,7 @@ social:
   twitter: ceyaniemir
   linkedin: emir-ceyani
   google_scholar: VzqEN78AAAAJ
+  semantic_scholar: 51219213
 # Erdős  number is at most 4.
 # (Brandon Amos -> Layne Watson -> Leroy Kelly -> Zoltán Füredi -> Paul Erdős )
 
@@ -23,16 +24,19 @@ color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
 order:
   - [about, Short Bio]
   # - [news, News]
+  #- [current_position, Current Position]
+  - [research_interests,Research Interests]
   - [education, Education]
+
   - [all_publications, Publications]
-  - [industry, Industry Experience]
-  #- [research, Research Experience]
+  - [positions, Previous Positions]
   # - [selected_publications, Selected Publications]
-  - [honors, Honors \& Awards]
 #  - [activities, Activities]
+  - [honors, Honors \& Awards]
   - [talks, Invited Talks]
   #- [advising, Students \& Advising]
   - [service, Professional Activities]
+  - [coursework, Selected Courses]
  # - [teaching, Teaching]
   - [repos, Repositories]
   - [skills, Skills]
@@ -43,12 +47,20 @@ about:
   as I believe that federated learning systems should be accessible for everyone.
   Previously, I was a Master's student at Bilkent University, Ankara, Turkey, and an R&D engineer at Turkcell Technology under my master’s advisor, \href{https://www.linkedin.com/in/ergut/}{<b>Dr. Salih Ergut</b>} with a prestigious 5G & Beyond Graduate Support Program.
 
+research_interests:
+  Federated learning, graph neural networks, approximate Bayesian inference, probabilistic machine learning, deep generative models
+
 service:
-  - details: "Reviewing: IEEE TNNLS, TBDCS"
-    year: 2019 - 
-  - details: "Teaching Assistant at ProbAI 2021 Summer School"
-    url: https://probabilistic.ai/contact/
-    year: 2021
+  reviewing:
+    - "International Conference on Learning Representations (ICLR)"
+    - "International Conference on Machine Learning (ICML)"
+    - "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    - "IEEE Transactions of Neural Networks and Learning Systems (TNNLS)"
+    - "IEEE Transactions of Big Data (TBD)"
+  main:
+    - details: "Teaching Assistant at ProbAI 2021 Summer School"
+      url: https://probabilistic.ai/contact/
+      year: 2021
     #sub_details: "*Outstanding reviewer"
   # - details: NeurIPS Learning Meets Combinatorial Optimization Workshop Organizer
   #   year: 2020
@@ -62,16 +74,24 @@ service:
   # - details: CMU CSD MS Admissions
   #   year: 2014 -- 2015
 
+
+current_position:
+  - place: University of Southern California
+    location: Los Angeles, CA
+    title: Ph.D. Student
+    dates: Jan 2021 -- Present
+
+
 repos:
   - repo_url: https://github.com/FedML-AI/FedML
     year: 2020
     desc: FedML - A Research-oriented Federated Learning Library
   - repo_url: https://github.com/FedML-AI/FedGraphNN
     year: 2021
-    desc: FedGraphNN - A Research-oriented Federated Learning Library for Graph Neural Networks
+    desc:  A Research-oriented Federated Learning Library for GNNs
   - repo_url: https://github.com/FedML-AI/SpreadGNN
     year: 2021
-    desc: SpreadGNN - Serverless Multi-Task Federated Learning for Graph Neural Networks
+    desc: Serverless Multi-Task Federated Learning for GNNs
 
 education:
   - school: University of Southern California
@@ -84,7 +104,7 @@ education:
 
   - school: Bilkent University 
     location: Ankara,TR
-    degree: M.Sc. in Electrical \& Electronics Engineering
+    degree: M.Sc. in Electrical \& Electronics Engineering (High Honors)
     dates: 2018 -- 2020
     details:
       - "Thesis Title: \\href{http://repository.bilkent.edu.tr/handle/11693/54851}{Spatio-temporal Forecasting Over Graphs with Deep Learning}"
@@ -92,68 +112,37 @@ education:
 
   - school: Bilkent University 
     location: Ankara,TR
-    degree: B.Sc. in Electrical \& Electronics Engineering
+    degree: B.Sc. in Electrical \& Electronics Engineering (High Honors)
     dates: 2013 -- 2018
-    # details:
-    #   - "Advisor: \\href{https://people.cs.vt.edu/~ltw/shortvita.html}{Dr. Salih Ergut}"
 
-# research:
-#   - place: University of Southern California
-#     location: Los Angeles
-#     title: Research Assistant
-#     advisor: Prof. Salman Avestimehr
-#     dates: Jan 2021 -- Present
-#     area: Federated learning, graph neural networks, probabilistic deep learning, information theory
-#   - place: Bilkent University
-#     location: Ankara TR
-#     title: Research \& Teaching Assistant
-#     dates: June 2018 -- Sept 2020
-#     advisor: Dr. Salih Ergut
-#     area: Spatiotemporal Traffic Forecasting with Deep Learning Models
-
-
-industry:
+positions:
   - place: Turkcell Technology 
     location: Istanbul, TR
     title: 5G VATS R\&D Engineer
     dates: Oct 2018 - Dec 2020
     advisor: \href{https://www.linkedin.com/in/ergut/}{Salih Ergut}
-    # dates: June 2018 -- Sept 2018
     details:  
-    # \href{https://etkinlik.btk.gov.tr/forum/content/263}{
      - "Developed deep learning algorithms for forecasting spatio-temporal grid and graph-structured mobile traffic series collected from 4G/5G base stations under non-stationary environments."
+  - place: Bilkent University
+    location: Ankara TR
+    title: Research \& Teaching Assistant
+    dates: June 2018 -- Sept 2020
+    advisor: Dr. Salih Ergut
+    area: Spatiotemporal Traffic Forecasting with Deep Learning Models
 
-# teaching:
-  
-#   - semester: Fall 2020
-#     name: Neural Networks
-#     short: Bilkent EEE 443-543
-#     position: Grader
-#   - semester: Fall 2019 - Spring 2020
-#     name: Industrial Design Project I-II
-#     short: Bilkent 493-494
-#     position: TA
-#   - semester: Spring 2019
-#     name: Signals and Systems
-#     short: Bilkent EEE-321
-#     position: TA
-#   - semester: Fall 2018
-#     name: Digital Signal Processing
-#     short: Bilkent EEE-424
-#     position: TA
+coursework:
+  -name: Large-Scale Optimization in Machine Learning
+  -name: Theory of Machine Learning
+  -name: Dynamics of Deep Representation Learning
+  -name: Privacy in the Era of Big Data
 
-# selected_publications:
-#   name: "E. Ceyani"
-#   file: selected.bib
-#   sort_bib: True
-#   include_image: True
-#   group_by_year: True
+
 
 all_publications:
-  name: "E. Ceyani"
+  name: "Ceyani"
   file: all.bib
   sort_bib: True
-  include_image: True
+  include_image: False
   group_by_year: True
   # categories:
   #   - heading: Preprints and Tech Reports
@@ -197,19 +186,10 @@ skills:
     details: Linux, vim, git, tmux, zsh
 
 honors:
-
-  - title: Deep|Bayes \& PRAIRIE AI ML summer schools.
+  - title: Full scholarship for Deep|Bayes \& PRAIRIE AI ML summer schools.
     year: 2019
-    descr: Travel \& Accommodation Grant
   - title: 5G \& Beyond Graduate Support Program and Bilkent Graduate Scholarship
     year: 2018 - 2020
-    descr: Funded during M.Sc. studies by Bilkent University and ICT(Awarded for the first time). 
-  - title: Research Excellence Award
-    descr:  Awarded by Bilkent University Electrical and Electronics Engineering Department.
+  - title: Research Excellence Award Awarded by Bilkent University.
     year: 2018
     
-  
-# activities:
-#   - Honors Residential College, Virginia Tech, 2013 -- 2014
-#   - Hokies Pep Band, Virginia Tech, 2012 -- 2013
-#   - Computer Science Community Service, Virginia Tech, 2012
