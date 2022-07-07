@@ -154,7 +154,7 @@ all_publications:
   name: "Ceyani"
   file: all.bib
   sort_bib: True
-  include_image: False
+  include_image: True
   group_by_year: True
   # categories:
   #   - heading: Preprints and Tech Reports
