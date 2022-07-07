@@ -60,6 +60,9 @@ service:
     - "IEEE Transactions of Big Data (TBD)"
 
   main:
+    - details: "President of USC Turkish Graduate Student Association (TGSA)"
+      url: https://engage.usc.edu/turkishgraduatestudentsassociationatusc/home/
+      year: Jun 2022 - Present
     - details: "Student Organizer at the 1st FedGraph2022 Workshop"
       url: https://sites.google.com/view/fedgraph2022/
       year: 2022
