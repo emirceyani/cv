@@ -1,27 +1,14 @@
 ~< extends "section.tex" >~
 
 ~< block body >~
-% \vspace{-2mm}
-% \begin{itemize}
-~< for school in items >~
-    % \item 
-  ~< if school.degree >~
-    \textbf{<< school.degree >>}
-    ~< if school.overallGPA >~
-        (<< school.overallGPA >>)
-    ~< endif >~
-    \hfill << school.dates >> \par
-    << school.school >> | << school.location >> \par
-  ~< else >~
-    << school.school >> | << school.location >> \hfill << school.dates >> \par
-  ~< endif >~
-  ~< if school.details >~
-    ~< for detail in school.details ->~
-        <<detail>> \par
-    ~< endfor >~
-  ~< endif >~
-  \vspace{3mm}
-~< endfor >~
-% \end{itemize}
-\vspace{-3mm}
+% \begin{tabular}{p{0.5in}p{5in}}
+  ~< for item in items >~
+    ~< if item.url >~
+      \href{<< item.url >>}{<< item.name >>} \hfill << item.year >> \par  {\scriptsize \color{gray}{ << item.details >> } }
+    ~< else >~
+      << item.name >> \par  {\scriptsize \color{gray}{ << item.details >> } }
+      ~< endif >~
+     
+  ~< endfor >~
+% \end{tabular}
 ~< endblock body >~

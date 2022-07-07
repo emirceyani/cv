@@ -6,7 +6,6 @@
 <tr>
   <td>
     <a href="{{ item.repo_url }}">{{ item.name }}</a> |
-    <i class="fa fas fa-star"></i> {{ item.stars }} |
     <em>{{ item.desc }}</em>
     <!-- {% if item.url %} -->
     <!--     <a href="{{ item.url }}">{{ item.name }}</a> {{ item.details }} -->

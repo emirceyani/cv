@@ -52,12 +52,17 @@ research_interests:
 
 service:
   reviewing:
-    - "International Conference on Learning Representations (ICLR)"
-    - "International Conference on Machine Learning (ICML)"
-    - "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    - "Neural Information Processing Systems (NeurIPS'22, Main and Dataset and Benchmark Tracks)"
+    - "International Conference on Learning Representations (ICLR'21)"
+    - "International Conference on Machine Learning (ICML'21)"
+    - "IEEE Conference on Computer Vision and Pattern Recognition (CVPR'21)"
     - "IEEE Transactions of Neural Networks and Learning Systems (TNNLS)"
     - "IEEE Transactions of Big Data (TBD)"
+
   main:
+    - details: "Student Organizer at the 1st FedGraph2022 Workshop"
+      url: https://sites.google.com/view/fedgraph2022/
+      year: 2022
     - details: "Teaching Assistant at ProbAI 2021 Summer School"
       url: https://probabilistic.ai/contact/
       year: 2021
@@ -99,13 +104,13 @@ education:
     degree: Ph.D. in Electrical \& Computer Engineering
     dates: Jan 2021 -- Present
     details:
+       - "Thesis Title: Federated Learning From Various Perspectives: Graphs, Physics, and Information"
        - "Advisor: \\href{http://avestimehr.com}{Prof. Salman Avestimehr}"
-
 
   - school: Bilkent University 
     location: Ankara,TR
     degree: M.Sc. in Electrical \& Electronics Engineering (High Honors)
-    dates: 2018 -- 2020
+    dates: Jun 2018 -- Dec 2020
     details:
       - "Thesis Title: \\href{http://repository.bilkent.edu.tr/handle/11693/54851}{Spatio-temporal Forecasting Over Graphs with Deep Learning}"
       - "Advisor: \\href{https://www.linkedin.com/in/ergut/}{Dr. Salih Ergut}"
@@ -113,9 +118,16 @@ education:
   - school: Bilkent University 
     location: Ankara,TR
     degree: B.Sc. in Electrical \& Electronics Engineering (High Honors)
-    dates: 2013 -- 2018
-
+    dates: Sep 2013 -- Jun 2018
+    
 positions:
+  - place: FedML Inc.
+    location: Los Angeles, CA
+    title: Research Intern
+    dates: May 2022 - August 2022
+    advisor: \href{https://www.avestimehr.com/}{Salman Avestimehr} \& \href{https://chaoyanghe.com/}{Chaoyang He}
+    details:  
+     - "Developing federated graph neural network algorithms for AI for Science applications such as drug discovery."
   - place: Turkcell Technology 
     location: Istanbul, TR
     title: 5G VATS R\&D Engineer
@@ -126,7 +138,7 @@ positions:
   - place: Bilkent University
     location: Ankara TR
     title: Research \& Teaching Assistant
-    dates: June 2018 -- Sept 2020
+    dates: Jun 2018 -- Sep 2020
     advisor: Dr. Salih Ergut
     area: Spatiotemporal Traffic Forecasting with Deep Learning Models
 

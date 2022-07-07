@@ -1,12 +1,7 @@
 ~< extends "section.tex" >~
 
 ~< block body >~
-~< for course in items >~
-\cvlistitem{
-    << course.name >>,
-    << course.instructor >>
-    \hfill
-    << course.semester>>
-}
-~< endfor >~
+
+\cvlistdoubleitem{\href{https://vatsalsharan.github.io/fall21.html}{Theory of Machine Learning}}{\href{https://sites.google.com/view/699dynamicsofrep/home}{Dynamics of Representation Learning}}
+\cvlistdoubleitem{\href{https://sites.usc.edu/razaviyayn/teaching-ise-633/}{Large-Scale Optimization for Machine Learning}}{\href{https://www.korolova.com/teaching/CSCI631/schedule.html}{Privacy in the World of Big Data}}
 ~< endblock body >~

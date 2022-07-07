@@ -4,4 +4,8 @@
   <i class="ai ai-google-scholar"></i> Google Scholar
 </a>
 
+<a href="https://www.semanticscholar.org/author/{{ semantic_id }}" class="btn btn-primary" style="padding: 0.3em;">
+  <i class="ai ai-google-scholar"></i> Semantic Scholar
+</a>
+
 {{ content.details }}
